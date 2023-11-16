@@ -1,11 +1,18 @@
+import { AddTransaction } from "./AddTransaction";
+import { Balance } from "./Balance";
+import { IncomeExpense } from "./IncomeExpense";
+import { TrasactionList } from "./TrasactionList";
+
+
+
+
 export function Content() {
   return (
     <div>
-      Children:
-      Balance
-      IncomeExpense
-      Transaction List
-      AddTransaction
+      <Balance/>
+      <IncomeExpense/>
+      <TrasactionList/>
+      <AddTransaction/>
     </div>
   );
 }
